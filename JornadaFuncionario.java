@@ -12,8 +12,10 @@ public class JornadaFuncionario extends Funcionario {
 		this.horasTrabalhadas = horasTrabalhadas;
 	}
 
+	@Override
 	public double calculaSalario() {
 		return salarioHora * horasTrabalhadas;
 
 	}
+
 }
