@@ -12,8 +12,10 @@ public class HoristaFuncionario extends Funcionario{
 	this.quantidadeHoras = quantidadeHoras;
 	}
 
+	@Override
 	public double calculaSalario() {
 	return valorHora * quantidadeHoras;
 
 }
+
 }
